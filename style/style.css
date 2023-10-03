@@ -1,0 +1,120 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(31,0,0,1) 25%, rgba(149,0,0,1) 100%);
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a img{
+    width: 20rem;
+    height: 8rem;
+    cursor: pointer;
+    border: none;
+}
+
+a:hover{
+    transition: all 0.5s ease;
+    transform: translateY(2px);
+}
+
+.contenedorPJ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.imagenPJ{
+    position: absolute;
+    width: 80rem;
+    height: 80rem;
+    z-index: 1;
+    margin-top: 10rem;
+}
+
+.imagenFondo{
+    position: absolute;
+    background-size: cover;
+    width: 60rem;
+    height: 80rem;
+    margin-top: 10rem;
+    background-image: url();
+}
+
+.infoPJ{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.infoPJ p{
+    font-size: 6rem;
+    color: white;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conjuntoRol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion p{
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades p{
+    color: white;
+    padding: 0 2rem 0 2rem ;
+    font-size: 2rem;
+}
+
+.imgICON{
+    width: 5rem;
+    height: 5rem;
+}
